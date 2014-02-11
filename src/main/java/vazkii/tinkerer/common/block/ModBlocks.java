@@ -63,6 +63,8 @@ public final class ModBlocks {
 
 	public static Block mobilizer;
 
+	public static Block bedrock;
+
 	public static void initBlocks() {
 		darkQuartz = new BlockDarkQuartz(LibBlockIDs.idDarkQuartz).setUnlocalizedName(LibBlockNames.DARK_QUARTZ);
 		darkQuartzSlab = new BlockDarkQuartzSlab(LibBlockIDs.idDarkQuartzSlab, false).setUnlocalizedName(LibBlockNames.DARK_QUARTZ_SLAB);
@@ -84,8 +86,14 @@ public final class ModBlocks {
 		mobilizerRelay = new BlockMobilizerRelay(LibBlockIDs.idMobilizerRelay).setUnlocalizedName(LibBlockNames.MOBILIZER_RELAY);
 		mobilizer = new BlockMobilizer(LibBlockIDs.idMobilizer).setUnlocalizedName(LibBlockNames.MOBILIZER);
 
+
 		if(ConfigHandler.enableKami) {
+
+			//Block.blocksList[7]=null;
+			//bedrock = new BlockBedrockKAMI();
+
 			warpGate = new BlockWarpGate(LibBlockIDs.idWarpGate).setUnlocalizedName(LibBlockNames.WARP_GATE);
+
 		}
 
 		registerBlocks();
@@ -115,6 +123,8 @@ public final class ModBlocks {
 
 		if(ConfigHandler.enableKami) {
 			GameRegistry.registerBlock(warpGate, ItemBlockWarpGate.class, LibBlockNames.WARP_GATE);
+
+			//GameRegistry.registerBlock(bedrock, LanguageRegistry.instance().getStringLocalization("bedrock"));
 		}
 	}
 
