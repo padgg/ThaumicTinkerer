@@ -36,6 +36,7 @@ import vazkii.tinkerer.common.core.handler.kami.SoulHeartHandler;
 import vazkii.tinkerer.common.core.helper.NumericAspectHelper;
 import vazkii.tinkerer.common.enchantment.ModEnchantments;
 import vazkii.tinkerer.common.enchantment.core.EnchantmentManager;
+import vazkii.tinkerer.common.entity.EntityFamiliar;
 import vazkii.tinkerer.common.item.ModItems;
 import vazkii.tinkerer.common.network.GuiHandler;
 import vazkii.tinkerer.common.network.PlayerTracker;
@@ -69,6 +70,7 @@ public class TTCommonProxy {
 		ModBlocks.initTileEntities();
 		NetworkRegistry.INSTANCE.registerGuiHandler(ThaumicTinkerer.instance, new GuiHandler());
         RegisterPackets();
+        EntityFamiliar.register();
         FMLCommonHandler.instance().bus().register(new PlayerTracker());
 
 
