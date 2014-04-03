@@ -65,7 +65,7 @@ public class ModCreativeTab extends CreativeTabs {
 		addBlock(ModBlocks.darkQuartz);
 		addBlock(ModBlocks.darkQuartzStairs);
 		addBlock(ModBlocks.darkQuartzSlab);
-
+        addItem(ModItems.focusDomestication);
 		addBlock(ModBlocks.mobilizer);
 		addBlock(ModBlocks.mobilizerRelay);
 		addBlock(ModBlocks.golemConnector);

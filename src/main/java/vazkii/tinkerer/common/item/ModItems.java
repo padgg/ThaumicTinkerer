@@ -21,13 +21,7 @@ import thaumcraft.api.wands.WandCap;
 import thaumcraft.api.wands.WandRod;
 import vazkii.tinkerer.common.block.ModBlocks;
 import vazkii.tinkerer.common.core.handler.ConfigHandler;
-import vazkii.tinkerer.common.item.foci.ItemFocusDeflect;
-import vazkii.tinkerer.common.item.foci.ItemFocusDislocation;
-import vazkii.tinkerer.common.item.foci.ItemFocusEnderChest;
-import vazkii.tinkerer.common.item.foci.ItemFocusFlight;
-import vazkii.tinkerer.common.item.foci.ItemFocusHeal;
-import vazkii.tinkerer.common.item.foci.ItemFocusSmelt;
-import vazkii.tinkerer.common.item.foci.ItemFocusTelekinesis;
+import vazkii.tinkerer.common.item.foci.*;
 import vazkii.tinkerer.common.item.kami.ItemBlockTalisman;
 import vazkii.tinkerer.common.item.kami.ItemCatAmulet;
 import vazkii.tinkerer.common.item.kami.ItemIchorPouch;
@@ -78,6 +72,7 @@ public final class ModItems {
 	public static Item infusedInkwell;
 	public static Item focusDeflect;
 	public static Item shareBook;
+    public static Item focusDomestication;
 
 	public static Item kamiResource;
 	public static Item ichorHelm;
@@ -125,6 +120,7 @@ public final class ModItems {
 		cleansingTalisman = new ItemCleansingTalisman().setUnlocalizedName(LibItemNames.CLEANSING_TALISMAN);
 		brightNitor = new ItemBrightNitor().setUnlocalizedName(LibItemNames.BRIGHT_NTIOR);
 		focusTelekinesis = new ItemFocusTelekinesis().setUnlocalizedName(LibItemNames.FOCUS_TELEKINESIS);
+        focusDomestication = new ItemFocusDomestication().setUnlocalizedName(LibItemNames.FOCUS_DOMESTICATION);
 		soulMould = new ItemSoulMould().setUnlocalizedName(LibItemNames.SOUL_MOULD);
 		xpTalisman = new ItemXPTalisman().setUnlocalizedName(LibItemNames.XP_TALISMAN);
 		focusSmelt = new ItemFocusSmelt().setUnlocalizedName(LibItemNames.FOCUS_SMELT);
@@ -203,6 +199,7 @@ public final class ModItems {
 		GameRegistry.registerItem(shareBook,LibItemNames.SHARE_BOOK);
         GameRegistry.registerItem(mobAspect,LibItemNames.MOB_ASPECT);
         GameRegistry.registerItem(mobDisplay,LibItemNames.MOB_DISPLAY);
+        GameRegistry.registerItem(focusDomestication, LibItemNames.FOCUS_DOMESTICATION);
 		if(ConfigHandler.enableKami) {
 			GameRegistry.registerItem(kamiResource,LibItemNames.KAMI_RESOURCE);
 			GameRegistry.registerItem(ichorHelm,LibItemNames.ICHOR_HELM);
