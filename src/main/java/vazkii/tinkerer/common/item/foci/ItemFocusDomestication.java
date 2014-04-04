@@ -12,6 +12,7 @@ import org.lwjgl.Sys;
 import thaumcraft.api.aspects.Aspect;
 import thaumcraft.api.aspects.AspectList;
 import thaumcraft.common.lib.Utils;
+import vazkii.tinkerer.common.entity.EntityFamiliar;
 
 /**
  * Created by pixlepix on 4/3/14.
@@ -32,6 +33,11 @@ public class ItemFocusDomestication extends ItemModFocus {
         Entity hit=Utils.getPointedEntity(paramWorld, entityPlayer, 0, 10, .1F);
         if(hit instanceof EntityBat || hit instanceof EntityWolf || hit instanceof EntityOcelot){
             hit.setDead();
+            Entity familiar=new EntityFamiliar(hit.worldObj);
+            ((EntityFamiliar)familiar).setDog();
+            ((EntityFamiliar)familiar).owner=entityPlayer;
+            familiar.setPositionAndRotation(hit.posX, hit.posY, hit.posZ, hit.rotationYaw, hit.rotationPitch);
+            paramWorld.spawnEntityInWorld(familiar);
         }
 
         if(paramWorld.isRemote){

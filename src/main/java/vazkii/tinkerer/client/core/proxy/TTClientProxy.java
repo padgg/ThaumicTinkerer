@@ -18,6 +18,7 @@ import cpw.mods.fml.client.registry.ClientRegistry;
 import cpw.mods.fml.client.registry.RenderingRegistry;
 import cpw.mods.fml.common.event.FMLInitializationEvent;
 import cpw.mods.fml.common.event.FMLPreInitializationEvent;
+import net.minecraft.client.model.ModelBiped;
 import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.item.EnumRarity;
 import net.minecraft.util.EnumChatFormatting;
@@ -35,6 +36,7 @@ import vazkii.tinkerer.client.core.handler.kami.SoulHeartClientHandler;
 import vazkii.tinkerer.client.core.handler.kami.ToolModeHUDHandler;
 import vazkii.tinkerer.client.core.helper.ClientHelper;
 import vazkii.tinkerer.client.lib.LibRenderIDs;
+import vazkii.tinkerer.client.render.RenderFamiliar;
 import vazkii.tinkerer.client.render.block.RenderMagnet;
 import vazkii.tinkerer.client.render.block.RenderRepairer;
 import vazkii.tinkerer.client.render.block.kami.RenderWarpGate;
@@ -51,6 +53,7 @@ import vazkii.tinkerer.common.block.tile.kami.TileWarpGate;
 import vazkii.tinkerer.common.block.tile.tablet.TileAnimationTablet;
 import vazkii.tinkerer.common.core.handler.ConfigHandler;
 import vazkii.tinkerer.common.core.proxy.TTCommonProxy;
+import vazkii.tinkerer.common.entity.EntityFamiliar;
 import vazkii.tinkerer.common.item.ModItems;
 import vazkii.tinkerer.common.item.kami.foci.ItemFocusShadowbeam;
 
@@ -76,6 +79,9 @@ public class TTClientProxy extends TTCommonProxy {
 		MinecraftForge.EVENT_BUS.register(new HUDHandler());
         MinecraftForge.EVENT_BUS.register(new ClientTickHandler());
         MinecraftForge.EVENT_BUS.register(new GemArmorKeyHandler());
+
+        RenderingRegistry.registerEntityRenderingHandler(EntityFamiliar.class, new RenderFamiliar(new ModelBiped(), 0.5F));
+
 		registerTiles();
 		registerRenderIDs();
 
