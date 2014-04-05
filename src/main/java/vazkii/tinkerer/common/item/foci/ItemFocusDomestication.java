@@ -31,7 +31,7 @@ public class ItemFocusDomestication extends ItemModFocus {
     public ItemStack onFocusRightClick(ItemStack itemStack, World paramWorld, EntityPlayer entityPlayer, MovingObjectPosition paramMovingObjectPosition) {
         System.out.println(paramMovingObjectPosition);
         Entity hit=Utils.getPointedEntity(paramWorld, entityPlayer, 0, 10, .1F);
-        if(hit instanceof EntityBat || hit instanceof EntityWolf || hit instanceof EntityOcelot){
+        if(!paramWorld.isRemote && hit instanceof EntityBat || hit instanceof EntityWolf || hit instanceof EntityOcelot){
             hit.setDead();
             Entity familiar=new EntityFamiliar(hit.worldObj);
             ((EntityFamiliar)familiar).setDog();

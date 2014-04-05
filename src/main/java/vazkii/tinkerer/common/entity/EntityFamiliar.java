@@ -9,6 +9,7 @@ import net.minecraft.entity.player.EntityPlayer;
 import net.minecraft.server.management.PlayerManager;
 import net.minecraft.world.World;
 import vazkii.tinkerer.common.ThaumicTinkerer;
+import vazkii.tinkerer.common.entity.ai.FamiliarAIFollowOwner;
 import vazkii.tinkerer.common.entity.ai.FamiliarOwnerHurtByTarget;
 
 import java.util.Random;
@@ -16,7 +17,7 @@ import java.util.Random;
 /**
  * Created by pixlepix on 4/3/14.
  */
-public class EntityFamiliar extends EntityAnimal implements IEntityOwnable {
+public class EntityFamiliar extends EntityCreature implements IEntityOwnable {
 
     public static final String name ="entityFamiliar";
 
@@ -52,17 +53,18 @@ public class EntityFamiliar extends EntityAnimal implements IEntityOwnable {
         super(par1World);
         this.tasks.addTask(1, new EntityAISwimming(this));
         this.tasks.addTask(3, new EntityAIWander(this, 1.0D));
-        this.tasks.addTask(4, new EntityAIWatchClosest(this, EntityPlayer.class, 8.0F));
-        this.tasks.addTask(5, new EntityAILookIdle(this));
 
-        this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, false));
-        this.targetTasks.addTask(2, new FamiliarOwnerHurtByTarget(this));
+        this.tasks.addTask(4, new FamiliarAIFollowOwner(this, 1.0D, 1.0F, 100.0F));
+        this.tasks.addTask(5, new EntityAIWatchClosest(this, EntityPlayer.class, 8.0F));
+        this.tasks.addTask(6, new EntityAILookIdle(this));
+
+        //this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, false));
+        //this.targetTasks.addTask(2, new FamiliarOwnerHurtByTarget(this));
 
     }
 
-    @Override
-    public EntityAgeable createChild(EntityAgeable var1) {
-        return null;
+    public boolean isSitting(){
+        return false;
     }
 
     @Override
