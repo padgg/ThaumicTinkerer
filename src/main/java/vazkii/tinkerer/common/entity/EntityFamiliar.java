@@ -58,8 +58,8 @@ public class EntityFamiliar extends EntityCreature implements IEntityOwnable {
         this.tasks.addTask(5, new EntityAIWatchClosest(this, EntityPlayer.class, 8.0F));
         this.tasks.addTask(6, new EntityAILookIdle(this));
 
-        //this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, false));
-        //this.targetTasks.addTask(2, new FamiliarOwnerHurtByTarget(this));
+        this.targetTasks.addTask(1, new EntityAIHurtByTarget(this, false));
+        this.targetTasks.addTask(2, new FamiliarOwnerHurtByTarget(this));
 
     }
 
@@ -97,12 +97,6 @@ public class EntityFamiliar extends EntityCreature implements IEntityOwnable {
         this.getEntityAttribute(SharedMonsterAttributes.maxHealth).setBaseValue(100.0D);
         this.getEntityAttribute(SharedMonsterAttributes.knockbackResistance).setBaseValue(0.0D);
         this.getEntityAttribute(SharedMonsterAttributes.movementSpeed).setBaseValue(0.25D);
-    }
-
-    @Override
-    public void setHealth(float par1) {
-        //TODO: Drain vis on damage
-        return;
     }
 
     @Override

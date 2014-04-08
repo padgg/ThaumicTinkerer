@@ -29,7 +29,6 @@ public class ItemFocusDomestication extends ItemModFocus {
 
     @Override
     public ItemStack onFocusRightClick(ItemStack itemStack, World paramWorld, EntityPlayer entityPlayer, MovingObjectPosition paramMovingObjectPosition) {
-        System.out.println(paramMovingObjectPosition);
         Entity hit=Utils.getPointedEntity(paramWorld, entityPlayer, 0, 10, .1F);
         if(!paramWorld.isRemote && hit instanceof EntityBat || hit instanceof EntityWolf || hit instanceof EntityOcelot){
             hit.setDead();
