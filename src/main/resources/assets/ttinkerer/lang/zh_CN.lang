@@ -5,15 +5,23 @@ itemGroup.ThaumicTinkerer=神秘工匠
 
 # MESSAGES
 ttmisc.connector.set=位置已设置!
+ttmisc.keyCategory=神秘工匠
 ttmisc.connector.complete=已绑定!
 ttmisc.connector.notinterf=并非矢量变换接口
 ttmisc.connector.interffail=不能将矢量变换接口绑定到矢量变换接口上去
+ttmisc.connector.dislfail=无法绑定到另一个矢量变化接口上去
 ttmisc.connector.notpresent=该矢量变换接口已经不存在了
 ttmisc.connector.toofar=原来的矢量变换接口太远了
+ttmisc.golemconnector.set=连接已设置!
+ttmisc.golemconnector.complete=结合完成!
+ttmisc.golemconnector.notinterf=这个连接没有连接到一个傀儡连接的方块
+ttmisc.golemconnector.notpresent=这个傀儡连接的方块不存在
 ttmisc.leftClick=左击
 ttmisc.rightClick=右击
 ttmisc.redstoneControl=红石控制
 ttmisc.animationTablet.notRotatable=你不能旋转已经激活的桌子.
+ttmisc.bloodSword.activateEssentiaHarvest=收割工具：已激活
+ttmisc.bloodSword.deactivateEssentiaHarvest=收割工具：未激活
 ttmisc.focusDislocation.tooltip=当前转移目标:%s
 ttmisc.focusDislocation.tooltipExtra=额外内容
 ttmisc.inactive=§c未激活
@@ -30,29 +38,107 @@ ttmisc.startEnchant=开始附魔
 ttmisc.full=§c已满
 ttmisc.notAbsorbing=§c关闭吸引模式
 ttmisc.absorbing=§a开启吸引模式
+ttmisc.shareTome.write=研究已记录!魔法书生成
+ttmisc.shareTome.notOnline=这个研究的创建者现在不在线。
+ttmisc.shareTome.sync=研究已获得.
+ttmisc.shareTome.noAssign=未分配
+ttmisc.shareTome.playerName=属于 %s 的研究。
+ttmisc.toggleArmor=触发唤醒护甲
 
+# KAMI MISC
+ttmisc.mode.pick.0=专注模式
+ttmisc.mode.pick.1=扩散模式
+ttmisc.mode.pick.2=穿透模式
+ttmisc.mode.shovel.0=专注模式
+ttmisc.mode.shovel.1=扩散模式
+ttmisc.mode.shovel.2=穿透模式
+ttmisc.mode.axe.0=专注模式
+ttmisc.mode.axe.1=扩散模式
+ttmisc.mode.axe.2=伐木模式
+ttmisc.mode.sword.0=斩杀模式
+ttmisc.mode.sword.1=分裂模式
+ttmisc.mode.sword.2=灵魂模式
+ttmisc.experience=经验
+ttmisc.light0=灵魂之火 已唤醒
+ttmisc.light1=灵魂之火 未唤醒
+ttmisc.awakenedArmor0=贤者模式 已唤醒
+ttmisc.awakenedArmor1=贤者模式 未唤醒
+ttmisc.disableAllArmor=贤者模式 未唤醒
+ttmisc.enableAllArmor=贤者模式 已唤醒
+ttmisc.differentDim=不同的尺寸
+ttmisc.distance=距离
+ttmisc.lockedGate=允许传入传送点
+ttmisc.destination=未知的目的地
+ttmisc.entrancePoint=传入点
+ttmisc.numberKeys=使用数字键在目的地间快速跳转。
+ttmisc.spaceToReset=使用空格键回到传入点。
+ttmisc.destinationInd=(目的地 %s)
+ttmisc.clickToTeleport=使用shift和左键确认传送
+ttmisc.destinations=目的地:
+ttmisc.noDest=在目的地没有星空门。
+ttmisc.noTeleport=在目标的星空门不接受传入的传送。
 
 # ITEM NAMES
-item.darkQuartz.name=烟黑石英
+item.darkQuartzItem.name=烟黑石英
 item.connector.name=矢量变换绑定器
-item.gaseousLight.name=光明气瓶
-item.gaseousShadow.name=暗影气瓶
+item.gaseousLightItem.name=光明安瓿
+item.gaseousShadowItem.name=暗影安瓿
 item.gasRemover.name=烟雾驱散器
 item.spellCloth.name=魅惑之布
-item.focusFlight.name=法杖核心：升腾
-item.focusDislocation.name=法杖核心：转移
+item.focusFlight.name=法杖核心: 升腾
+item.focusDislocation.name=法杖核心: 转移
 item.cleansingTalisman.name=防身护身符
 item.brightNitor.name=超能闪耀之光
-item.focusTelekinesis.name=法杖核心：念力
+item.focusTelekinesis.name=法杖核心: 念力
 item.soulMould.name=灵魂模具
 item.xpTalisman.name=汇魔护身符
-item.focusSmelt.name=法杖核心：伊夫利特之辉
-item.focusHeal.name=法杖核心：愈合
+item.focusSmelt.name=法杖核心: 伊夫利特之辉
+item.focusHeal.name=法杖核心: 愈合
 item.focusEnderChest.name=法杖核心: 末影裂痕
 item.bloodSword.name=咒灵之剑
 item.revealingHelm.name=揭示之头盔
 item.infusedInkwell.name=注魔笔与墨
-item.focusDeflect.name=法杖核心:扭曲
+item.focusDeflect.name=法杖核心: 扭曲
+item.shareBook.name=智慧共享之书
+item.mobAspect.name=灵魂模板
+item.mobAspect.condensed.name=浓缩灵魂模板
+item.mobAspect.infused.name=注魔灵魂模板
+
+# KAMI ITEM NAMES
+item.kamiResource.name=Kami源质
+item.ichor.name=神之血
+item.ichorCloth.name=神之血注魔布
+item.ichorium.name=神之血注魔锭
+item.ichorNugget.name=神之血注魔粒
+item.ichorCap.name=神之血注魔杖端
+item.ichorclothRod.name=神之血注魔银树芯杖柄
+item.netherShard.name=地狱碎片
+item.enderShard.name=末地碎片
+item.ichorclothHelm.name=神之血注魔布兜帽
+item.ichorclothChest.name=神之血注魔布长袍
+item.ichorclothLegs.name=神之血注魔布绑腿
+item.ichorclothBoots.name=神之血注魔布长靴
+item.ichorclothHelmGem.name=暮光深渊兜帽
+item.ichorclothChestGem.name=永恒宁静长袍
+item.ichorclothLegsGem.name=不灭权能绑腿
+item.ichorclothBootsGem.name=秩序庇护长靴
+item.catAmulet.name=猫的护身符
+item.ichorPick.name=神之血注魔镐
+item.ichorShovel.name=神之血注魔锹
+item.ichorAxe.name=神之血注魔斧
+item.ichorSword.name=神之血注魔剑
+item.ichorPickGem.name=觉醒神魂镐
+item.ichorShovelGem.name=觉醒神魂锹
+item.ichorAxeGem.name=觉醒神魂斧头
+item.ichorSwordGem.name=觉醒神魂剑
+item.ichorPouch.name=无极核心手袋
+item.blockTalisman.name=黑洞徽章
+item.placementMirror.name=世界塑造者的注视
+item.focusShadowbeam.name=法杖核心: 暗影折光
+item.focusXPDrain.name=法杖核心: 经验汲取
+item.protoclay.name=粘土精华
+item.skyPearl.name=星空珍珠
+item.focusRecall.name=法杖核心: 星空呼唤
 
 # BLOCK NAMES
 tile.darkQuartz.name=烟黑石英块
@@ -69,6 +155,15 @@ tile.funnel.name=要素漏斗
 tile.dislocator.name=矢量转位仪
 tile.repairer.name=奥法修复台
 tile.aspectAnalyzer.name=要素分析仪
+tile.platform.name=虚空平台
+tile.spawner.name=巫术板
+tile.portal.name=基岩传送门
+tile.Levitational Locomotive.name=悬浮运输台
+tile.Levitational Locomotive Relay.name=悬浮运输中继器
+tile.golemConnector.name=傀儡连接器
+
+# KAMI BLOCK NAMES
+tile.warpGate.name=星空门
 
 # ENCHANTMENT NAMES
 enchantment.ttinkerer:ascentBoost=腾迅
@@ -78,9 +173,25 @@ enchantment.ttinkerer:desintegrate=解离
 enchantment.ttinkerer:quickDraw=即时备战
 enchantment.ttinkerer:vampirism=吸血
 
+enchantment.ttinkerer:dispersedStrike=散击
+enchantment.ttinkerer:focusedStrike=专注
+enchantment.ttinkerer:tunnel=挖掘
+enchantment.ttinkerer:finalStrike=终结打击
+enchantment.ttinkerer:pounce=突击
+enchantment.ttinkerer:shatter=粉碎
+enchantment.ttinkerer:shockwave=冲击
+enchantment.ttinkerer:valiance=背水
+
+
+# WAND COMPONENTS
+item.Wand.ICHOR.cap=神之血注魔杖端
+item.Wand.ICHORCLOTH.rod=神之血注魔银树芯杖柄
+
 # RESEARCH
 ttresearch.prefix=[TT] 
-tc.research_category.TT_ENCHANTING=[TT]附魔
+ttresearch.prefix.kami=[TTKami] 
+tc.research_category.TT_ENCHANTING=[TT]高魔
+tc.research_category.TT_CATEGORY=神秘工匠
 
 # -- COMPUTERCRAFT PERIPHERALS
 ttresearch.name.PERIPHERALS=电脑外设
@@ -89,7 +200,7 @@ ttresearch.page.PERIPHERALS.0=神秘工匠让其添加的某些方块以及神�
 # Note: For people who localize the mod. If you have custom documentation, feel free to include in your PR a
 # link to it and the short URL (see above) you want for it on my website and I'll add it. 
 ttresearch.webpage.peripherals=http://tab.mcmod.cn/knowledge.php?id=57
-
+ttcomputer.dissipator=消散
 # -- ASPECT ANALYZER
 ttresearch.name.ASPECT_ANALYZER=要素分析仪
 ttresearch.lore.ASPECT_ANALYZER=电脑扫描
@@ -100,12 +211,28 @@ ttresearch.name.DARK_QUARTZ=烟黑石英
 ttresearch.lore.DARK_QUARTZ=暗影之日
 ttresearch.page.DARK_QUARTZ.0=烟黑石英肖似普通的石英,但性状相反.石英为材料的方块都能用烟黑石英做,但是看起来是黑色的.<BR><BR>烟黑使用可以用煤炭或者木炭以及普通下界石英制成.
 
+# -- TOME OF KNOWLEDGE SHARING
+ttresearch.name.SHARE_TOME=智慧共享之书
+ttresearch.lore.SHARE_TOME=一个古老魔法师的手记
+ttresearch.page.SHARE_TOME.0=如果有一天你碰巧想要让你的学识被世界所传颂，那么这本笔记适合你。<BR><BR>你只需要右键这本著作即可将你迄今为止所掌握的研究进行记录，将它交给别人吧，他们将为你的智慧叹服。<BR><BR>(笔记: 但是这本书的制作方式已经失传了，它的存在只能成为一个谜)
+
 # -- TRANSVECTOR INTERFACE
 ttresearch.name.INTERFACE=矢量变换接口
 ttresearch.lore.INTERFACE=并不属于妮悠
 ttresearch.page.INTERFACE.0=“事实就是,1个方块只有6个面…”——Direwolf20如是说.<BR><BR>神秘等于化不可能为可能!你最新制作的这台设备能够与附近的方块绑定,之后它的面会变成你选中的方块的面的样子,并且你能够用这个面与选中的方块互动.它能够作为能量(BuildCraft(建筑)与IC2(工业)的能量)输入接口以及物品,源质,流体的输入输出接口.<BR>[continued]
 ttresearch.page.INTERFACE.1=为了将接口与其他方块绑定,你需要制作一个被称作矢量变换接口绑定器的特殊工具.<BR><BR>右击目标方块之后右击接口就能完成绑定操作.(注意：建筑模组的管道需要在绑定后拆掉再装才能有效)
+ttresearch.page.INTERFACE.2=另外我们可以用一点手段隐藏它，拿着方块右击接口就可以让接口伪装成这个方块的样子。若要移除隐蔽措施，空手右键伪装的接口即可。
 
+# -- GOLEM CONNECTOR
+ttresearch.name.GOLEM_CONNECTOR=傀儡连接器
+ttresearch.lore.GOLEM_CONNECTOR=没有傀儡真的被心灵控制。真的！
+ttresearch.page.GOLEM_CONNECTOR.0=通过探索，你已经发现了可以用动作，工具，以及一点点指令来使这些傀儡更听话一点！你发现了一个新的核心方块，可以通过这个核心来连接在这附近傀儡的心灵，然后“说服”他们按核心记录的要求去做
+ttresearch.page.GOLEM_CONNECTOR.1=为了将连接器联入一个傀儡的心灵，你需要制作一个特殊的工具。矢量变换绑定器可以胜任这份工作。<BR><BR>右键连接器后，shift+右键点击目标傀儡，两者就形成了连接并为你的作业进行准备。这个连接的范围非常远，最多可以达到三十码距离。
+ttresearch.page.GOLEM_CONNECTOR.2=另外为了让傀儡们不对它产生怀疑，我们需要拿着泥土或别的什么右键连接器来隐藏它。若要移除隐蔽措施，空手右键伪装的连接器即可。
+ttresearch.page.GOLEM_CONNECTOR.3=<BR><BR>为方便起见，使用这些外设的文档放置在网上以供查询.按下回车可以访问对应的页面。<BR><BR>但遗憾的是，这在一些系统下不能工作。如果这是原因，在你的浏览器输入"vazkii.us/tt/docs.php"。
+# Note: For people who localize the mod. If you have custom documentation, feel free to include in your PR a
+# link to it and the short URL (see above) you want for it on my website and I'll add it. 
+ttresearch.webpage.peripherals=https://github.com/Vazkii/ThaumicTinkerer/wiki/Peripheral-Documentation
 # -- GASEOUS ILLUMINAE
 ttresearch.name.GASEOUS_LIGHT=光明安瓿
 ttresearch.lore.GASEOUS_LIGHT=视线外的光明
@@ -140,13 +267,14 @@ ttresearch.page.FOCUS_FLIGHT.0=研究风雷剑过程中积累的丰富知识让�
 ttresearch.name.FOCUS_DISLOCATION=法杖核心：转移
 ttresearch.lore.FOCUS_DISLOCATION=在头脑中构筑堡垒因此它从不会崩塌.
 ttresearch.page.FOCUS_DISLOCATION.0=基于等价交换核心.你制作了这种新型的法杖核心.相比前者,新的法杖核心不但能够存储被施法对象的信息,还能存储被施法对象本身,并允许你将其放置到任意地方.<BR><BR>想要转移一个 方块,需要先手持法杖右击它.然后再右击其他某处.这个法杖核心允许你转移近乎任意方块,包括箱子和刷怪笼.
+ttresearch.page.FOCUS_DISLOCATION.1=魔力会损耗一部分用于捡起方块。但把方块放下是不消耗能量的。<BR><BR>由于所需要的魔力在空间会发生错位，一些实体方块(如箱子和炉子)将会是正常消耗的5倍。尤其是刷怪笼，将会是正常的20倍。
 
 # -- TALISMAN OF REMEDIUM
 ttresearch.name.CLEANSING_TALISMAN=防身护身符
 ttresearch.lore.CLEANSING_TALISMAN=妙寿安的礼物
 ttresearch.page.CLEANSING_TALISMAN.0=在研究生命以及肉体时,你发现可以利用魔力转移来自外界的伤害效果.这个护身符将为持有者抵挡大多数类型的伤害,但这会消耗它的耐久.<BR><BR>使用shift加右键来选择是否开启护身符的效果.理所当然的,只有开启时才起效.
 
-# -- HYPERNERGETIC NITOR
+# -- HYPERENERGETIC NITOR
 ttresearch.name.BRIGHT_NITOR=超能闪耀之光
 ttresearch.lore.BRIGHT_NITOR=昏暗的天色,给我亮起来吧！
 ttresearch.page.BRIGHT_NITOR.0=你试图创造一种新型的蕴含Potentia要素以及Lux要素的闪耀之光,即使被玩家拿在手里也能通过活化永恒之焰来照亮四周.<BR><BR>被它释放出来的光亮将会照亮持有者身后邻近之处,由于其热量,在下界时看似留下一道长长的尾迹.
@@ -173,7 +301,6 @@ ttresearch.page.ENCHANTER.2=这些柱子用2~12个黑曜石图腾方块堆垒而
 ttresearch.name.XP_TALISMAN=汇魔护身符
 ttresearch.lore.XP_TALISMAN=多快好省
 ttresearch.page.XP_TALISMAN.0=僵尸之脑利用得当便能用于储存经验.你制作的这种护身符虽非完美,但也具有类似功能.<BR><BR>手持护身符按住潜行按键右击可以激活或者关闭护身符：激活的护身符会吸收附近的经验.当携带有空的玻璃瓶的时候,右击护身符,可以释放出经验来填满玻璃瓶得到附魔瓶.
-
 
 # -- ESSENTIA FUNNEL
 ttresearch.name.FUNNEL=要素漏斗
@@ -210,10 +337,50 @@ ttresearch.name.TTENCH_VAMPIRISM=附魔:吸血
 ttresearch.lore.TTENCH_VAMPIRISM=我将夺走那些
 ttresearch.page.TTENCH_VAMPIRISM.0=你研究出一种能够吸取敌人生命值为己用的附魔.<BR><BR>这种附魔能够被施加在剑上.当附魔后的剑对敌人造成伤害时,会将伤害数值的一部分作为生命值返回给使用者.
 
-# -- WAND FOCUS: FOCUS_SMELT
+# -- ENCHANTMENT: DISPERSED_STRIKES
+ttresearch.name.TTENCH_DISPERSED=附魔：散击
+ttresearch.lore.TTENCH_DISPERSED=杀死所有怪物
+ttresearch.page.TTENCH_DISPERSED.0=你研究出一种能够一次打多个怪的附魔<BR><BR>这种附魔可以被施加在剑上. 附魔后的剑第一次打在怪上伤害加倍，但之后的攻击会下降
+
+# -- ENCHANTMENT: FOCUSED_STRIKES
+ttresearch.name.TTENCH_FOCUSED=附魔:专注
+ttresearch.lore.TTENCH_FOCUSED=杀掉其中一只怪
+ttresearch.page.TTENCH_FOCUSED.0=你研究出一种能够熟练打一只怪的附魔<BR><BR>这种附魔可以被施加在剑上，附魔之后，第一剑伤害减少，之后再攻击同一个怪物伤害会上升。
+
+# -- ENCHANTMENT: FINAL_STRIKE
+ttresearch.name.TTENCH_FINAL=附魔:终结打击
+ttresearch.lore.TTENCH_FINAL=去掉头，就可以吃了
+ttresearch.page.TTENCH_FINAL.0=你研究出一种偶尔会暴击的附魔<BR><BR>这种附魔可以被施加在剑上，附魔之后，有机会打出一次三倍伤害
+
+# -- ENCHANTMENT: VALIANCE
+ttresearch.name.TTENCH_VALIANCE= 附魔：背水
+ttresearch.lore.TTENCH_VALIANCE=从边缘回来
+ttresearch.page.TTENCH_VALIANCE.0=你研究出一种在你血量低的时候伤害更好的附魔<BR><BR>这种附魔能够被施加在剑上，附魔以后的剑在使用者的血量低的时候，伤害会增加。
+
+# -- ENCHANTMENT: TUNNEL
+ttresearch.name.TTENCH_TUNNEL=附魔：挖掘
+ttresearch.lore.TTENCH_TUNNEL=采矿无聊至极
+ttresearch.page.TTENCH_TUNNEL.0=你研究出一种直线挖掘时更加高效的附魔<BR><BR>这种附魔能被施加在工具上，附魔之后直线挖掘多个方块速度会上升
+
+# -- ENCHANTMENT: SHATTER
+ttresearch.name.TTENCH_SHATTER=附魔：粉碎
+ttresearch.lore.TTENCH_SHATTER=谁要黑曜石啊？
+ttresearch.page.TTENCH_SHATTER.0=你研究出一种挖掘硬方块时更高效的附魔<BR><BR>这种附魔能被施加在工具上，附魔之后在挖掘硬方块时候速度会得到极大的提升。
+
+# -- ENCHANTMENT: SHOCKWAVE
+ttresearch.name.TTENCH_SHOCKWAVE=附魔：冲击
+ttresearch.lore.TTENCH_SHOCKWAVE=迷你地震
+ttresearch.page.TTENCH_SHOCKWAVE.0=你研究出一种掉落时能够杀死怪物的附魔<BR><BR>这种附魔能被施加在鞋子上，佩戴者掉落的时候会杀死周围的怪物和玩家<BR><BR>这种魔法会使玩家身轻如燕，所以会防止摔落伤害，这会让玩家变太轻去伤害其它实体，你感觉到停止这需要一段时间，最好你能够了解这个魔法的利弊。
+
+# -- ENCHANTMENT: POUNCE
+ttresearch.name.TTENCH_POUNCE=附魔：突击
+ttresearch.lore.TTENCH_POUNCE=就像一只小猫一样
+ttresearch.page.TTENCH_POUNCE.0=你研究出一种能够跳上你的敌人的附魔<BR><BR>这种附魔能被施加在护腿上，附魔之后当你在空中的时候，攻击会更加厉害
+
+# -- WAND FOCUS: EFREET'S FLAME
 ttresearch.name.FOCUS_SMELT=法杖核心:伊夫利特之辉
 ttresearch.lore.FOCUS_SMELT=丝带并没让它与众不同
-ttresearch.page.lore.FOCUS_SMELT.0=向采掘法杖核心灌注烈焰的力量能得到一种兼具两者能力的新型法杖核心.<BR><BR>安装该核心的法杖能够向指向的方块发出采掘之杖那样的光束,并如果将其放入熔炉那样冶炼成其他物品.
+ttresearch.page.FOCUS_SMELT.0=向采掘法杖核心灌注烈焰的力量能得到一种兼具两者能力的新型法杖核心.<BR><BR>安装该核心的法杖能够向指向的方块发出采掘之杖那样的光束,并如果将其放入熔炉那样冶炼成其他物品.
 
 # -- WAND FOCUS: MENDING
 ttresearch.name.FOCUS_HEAL=法杖核心：愈合
@@ -224,11 +391,19 @@ ttresearch.page.FOCUS_HEAL.0=你知道岩精携有一种能够诱发瘟病的核
 ttresearch.name.FOCUS_ENDER_CHEST=法杖核心: 末影裂痕
 ttresearch.lore.FOCUS_ENDER_CHEST=对第四维度打包
 ttresearch.page.FOCUS_ENDER_CHEST.0=将便携式洞穴与魔力手镜融合,你做出一种能够用末影力量撕裂空间的法杖核心,使得你能够随时远距离打开自己的末影箱子.
+ttresearch.page.FOCUS_ENDER_CHEST.ES=通过对魔力手镜及便携式洞穴的结合，你做出一种能够用末影力量撕裂空间的法杖核心，使得你能够随时远距离打开自己的末影箱子。<BR>潜行键右击虚空箱子设定目标颜色， 或者潜行右击黑曜石将目标设定到末影箱的储存。
 
 # -- CURSED SPIRIT'S BLADE
 ttresearch.name.BLOOD_SWORD=咒灵之剑
 ttresearch.lore.BLOOD_SWORD=你并不快乐
 ttresearch.page.BLOOD_SWORD.0=你打造出一柄威力无双的魔剑.然而要发挥这种威力必须以执剑者的鲜血饲之.<BR><BR>只要挥剑斩中任何东西,剑身都会抽取执剑者一颗心的生命值.而使用该剑格挡则无论受到多大程度的伤害总是固定丢失1.5颗心的伤害.<BR><BR>此外,只要手持该剑就能加持一个恒定光环来增加移动速度.
+ttresearch.page.BLOOD_SWORD.1=你也发现这把剑可以收割怪物的灵魂代替了正常的下降，这能力通过激活shift-right, 这些丰富了你的工具, 但你怀疑他有其他用途
+
+# -- Mob Summoning
+ttresearch.name.SUMMON=怪物召唤
+ttresearch.lore.SUMMON=这已经和巫术无误了
+ttresearch.page.SUMMON.0=为了召唤怪物，你能够通过咒灵之剑来获得灵魂. 在巫术板之间放三个基座. 在基座上, 放三个灵魂模板. 不同类型的灵魂模板给不同类型的怪物，每个怪物都有不同的构造
+ttresearch.page.SUMMON.1=通过创造注魔灵魂模板，你可以召唤怪物不消耗灵魂模板，不过召唤速度会比普通的慢
 
 # -- TRANSVECTOR DISLOCATOR
 ttresearch.name.DISLOCATOR=矢量转位仪
@@ -240,11 +415,6 @@ ttresearch.name.REVEALING_HELM=揭示之头盔
 ttresearch.lore.REVEALING_HELM=这就是我不用PS的原因
 ttresearch.page.REVEALING_HELM.0=事实表明,揭示之护目镜没办法防御袭击而来的僵尸.你认为已经有了解决方案:将护目镜和神秘头盔合二为一.好吧,事实证明不是看上去那么简单.需要施加一点点魔法来避免反馈循环,还需要再施加一点点魔法来防止脱落,但总的来说,它基本可以投入使用了.
 
-# -- INFUSED SCRIBING TOOLS
-ttresearch.name.INFUSED_INKWELL=注魔笔与墨
-ttresearch.lore.INFUSED_INKWELL=更多墨水更耐用
-ttresearch.page.INFUSED_INKWELL.0=对普通的笔与墨灌注魔力,于是你发现一种让墨水瓶容纳更多墨水的方法.
-
 # -- THAUMIC REHABILITATOR
 ttresearch.name.REPAIRER=奥法修复台
 ttresearch.lore.REPAIRER=比用棍子穿过马铃薯的伤害还小
@@ -254,3 +424,175 @@ ttresearch.page.REPAIRER.0=你制造出一台能够修复破损工具的新设�
 ttresearch.name.FOCUS_DEFLECT=法杖核心:扭曲
 ttresearch.lore.FOCUS_DEFLECT=我不是天使
 ttresearch.page.FOCUS_DEFLECT.0=你制造出一种法杖核心,能够防护你免遭来袭的火球伤害.<BR><BR>这种核心在使用时会持续抽取其插入的法杖内的魔力,以在施法者附近召唤出一道防护的幕墙,使得穿过它们的寻常炮弹变得毫无伤害.<BR><BR>此处寻常炮弹包括箭矢,雪球以及药水.但似乎这种防护并不足以抵御一些更强力的攻击,比如火球或者凋灵头颅.
+
+# -- LEVITATOR
+ttresearch.name.LEVITATOR=悬浮运输台
+ttresearch.lore.LEVITATOR=它移动到了左边，噢！它又开始向右移。
+ttresearch.page.LEVITATOR.0=你无意间创造了一个新的装置，它可以把东西来回移动。将两个悬浮继电器放置成一条直线，它们之间便能够形成力梁。如果颗粒效果被打开，那么你便能够看见力场光束。<BR><BR> 将悬浮运输台放置在投射的光束中。这个装置便能够携带其上的块在光束前后跃迁。
+
+# -- ETHEREAL PLATFORM
+ttresearch.name.PLATFORM=虚空平台
+ttresearch.lore.PLATFORM=隐藏在虚无与现实的交界
+ttresearch.page.PLATFORM.0=你设计了一个方块，若有人站在上面那它只是一个普通的固体方块。但是除此之外的任何接触它的方式都会让它遁入虚无，比如站在上面按潜行。<BR><BR>你也可以将它伪装成其他方块的样子，只需要拿着方块右击它既可。<BR><BR>你认为它与奥术悬浮台的结合能产生一些有趣的效果。
+
+# -- INFUSED SCRIBING TOOLS
+ttresearch.name.INFUSED_INKWELL=注魔笔与墨
+ttresearch.lore.INFUSED_INKWELL=更多墨水更耐用
+ttresearch.page.INFUSED_INKWELL.0=对普通的笔与墨灌注魔力,于是你发现一种让墨水瓶容纳更多墨水的方法.
+
+# KAMI RESEARCH
+
+# -- DIMENSIONAL SHARDS
+ttresearch.name.DIMENSION_SHARDS=空间碎片
+ttresearch.lore.DIMENSION_SHARDS=彼世的珍品
+ttresearch.page.DIMENSION_SHARDS.0=类似于上界，下界与末地也拥有自己特定的元素碎片，但它们很少被生活在下界的僵尸猪人或是生活在末地的末影人获取。它们可能是很有用的东西，但你不确定能用来做什么。<BR><BR><IMG>ttinkerer:textures/items/netherShard.png:0:0:255:255:0.0625</IMG><IMG>ttinkerer:textures/items/enderShard.png:0:0:255:255:0.0625</IMG>
+
+# -- ICHOR
+ttresearch.name.ICHOR=神之血
+ttresearch.lore.ICHOR=诸神之血，贤者之石
+ttresearch.page.ICHOR.0=通过魔术的研究，你无意间发现了一种蕴藏着几乎所有能量精华的物质。<BR><BR>这是一种非常强大的物质，你把它称之为"神之血"的经过原始觉醒的下界之星。你确定你能把它用在未来的无数的设备。<BR><BR>(但是你不知道的是，你已经窥探到了世界的奥秘。在远古魔法师的记载之中，它被称之为贤者之石)
+
+# -- ICHORCLOTH
+ttresearch.name.ICHOR_CLOTH=神之血注魔布
+ttresearch.lore.ICHOR_CLOTH=纤维之中似乎被赋予了生命
+ttresearch.page.ICHOR_CLOTH.0=一次实验中，你将神之血的能量注入布匹后，你发现了一种神奇的织物。 有趣的是，不需要常规的注魔过程，它是由神之血直接吸收了钻石与混合织物形成的。(就像有生命一般)<BR><BR>然而，要做到这一点，你不仅需要最好的并充满能量魔杖，还需要穿着全套的魔术师长袍，这一切只是为了激活神之血。(你自嘲般摇摇头：就像唤醒一个恶魔一样）<BR><BR>你认为你是时候开始一个新的魔杖的设计了。
+
+# -- ICHORIUM
+ttresearch.name.ICHORIUM=神之血注魔锭
+ttresearch.lore.ICHORIUM=不是从第五十五层挖来的
+ttresearch.page.ICHORIUM.0=为了揭示神之血的奥秘，你做了更多的尝试。你将它与最平凡的材料混合后形成了一系列新的物质。大多数混合物并没有什么特别的事情发生，于是，你设法融入在过去成功过的钻石与织物，这一次，奇迹诞生了。<BR><BR>这是一种非常强大和稳定的金属物质，到这一步，普通的材料已经无法改变它的性质了(似乎有生命一般）。<BR>暂时你还没发现它的任何新用途，但你知道这不用花太长的时间。
+
+# -- ICHORCLOTH STRAPPED SILVERWOOD WAND CORE
+ttresearch.name.ROD_ICHORCLOTH=神之血注魔银树芯杖柄
+ttresearch.lore.ROD_ICHORCLOTH=贪婪之吻
+ttresearch.page.ROD_ICHORCLOTH.0=你做到了！将神之血注入到银树法杖之中，你设法创建一把最终之杖。<BR><BR>这是一个疯狂的核心，蕴藏有各项魔力 1000 vis (你也很惊讶它能做到这一步)。这必将使继续实验的昂贵成本减少一部分。现在的问题在于，在哪里吸收这么大量的魔力呢？
+
+# -- ICHORIUM WAND CAPS
+ttresearch.name.CAP_ICHOR=神之血注魔杖端
+ttresearch.lore.CAP_ICHOR=好像有什么在里面动
+ttresearch.page.CAP_ICHOR.0=你把神之血进行了第一次使用，通过雕琢你得到了一个可以节约 20% 法力损耗的杖端。现在你需要一个能存储更多魔力的杖柄。
+
+# -- ICHORCLOTH ARMOR
+ttresearch.name.ICHORCLOTH_ARMOR=神之血注魔长袍
+ttresearch.lore.ICHORCLOTH_ARMOR=神威展开!...等等...
+ttresearch.page.ICHORCLOTH_ARMOR.0=你已经找到了如何将神之血注魔布编制成衣服的方法。<BR><BR>当收到伤害时，这套新衣服就像是钻石盔甲一样有效(但是感觉更像是保护它自己)。<BR>更重要的是，这种布坚不可摧的特性让长袍完全不会被损耗。
+
+# -- COWL OF THE ABYSSAL DEPTHS
+ttresearch.name.ICHORCLOTH_HELM_GEM=暮光深渊兜帽
+ttresearch.lore.ICHORCLOTH_HELM_GEM=只是一只友好的甲壳动物
+ttresearch.page.ICHORCLOTH_HELM_GEM.0=你将神之血插入到神之血注魔兜帽中，发现了兜帽的一种更强大的形式。<BR><BR>首先，兜帽能起到护目镜的作用。<BR>其次，穿戴者被赋予了无限的水下呼吸以及清澈的水下视野。<BR>最后，就算是你饿了，健康的恢复依然起作用。<BR>(美中不足的是，戴着它的感觉就像被一只虫子抱住了头)
+
+# -- ROBES OF THE STRATOSPHERE
+ttresearch.name.ICHORCLOTH_CHEST_GEM=永恒宁静长袍
+ttresearch.lore.ICHORCLOTH_CHEST_GEM=长眠般的宁静
+ttresearch.page.ICHORCLOTH_CHEST_GEM.0=你将神之血插入到神之血注魔长袍中，发现了长袍的一种更强大的形式。<BR><BR>只要简单地套着这套衣服，佩戴者即拥有恒定的飞行能力(注意翅膀不能持续燃烧超过五分钟)，以及对所有坠落伤害的否定。<BR>同时长袍排斥一切快速靠近的物体，类似于一个失真的焦点。<BR>(但不知为何，它一直持续着规律的起伏)
+
+# -- LEGGINGS OF THE BURNING MANTLE
+ttresearch.name.ICHORCLOTH_LEGS_GEM=不灭权能绑腿
+ttresearch.lore.ICHORCLOTH_LEGS_GEM=吾于火中永生
+ttresearch.page.ICHORCLOTH_LEGS_GEM.0=你将神之血插入到神之血注魔绑腿中，发现了绑腿的一种更强大的形式。<BR><BR>这绑腿就像被注入了灵魂之火。<BR>首先，它们透射出的光芒伴随左右，甚至比超能闪耀之光更亮。这束光芒通灵般透射在佩戴人注视的方向，类似于一个手电筒，并优先给予创造者存在于一个更广阔的范围。<BR>此外，这个绑腿不仅提供耐火性，甚至能将传入的火焰伤害转化为治愈躯体的能量。<BR>(总感觉温度……在慢慢上升……)
+ttresearch.page.ICHORCLOTH_LEGS_GEM.1=如果你想因为一些原因站在黑暗之中，按住潜行右击绑腿将唤醒或沉睡灵魂之火。
+
+# -- BOOTS OF THE HORIZONTAL SHIELD
+ttresearch.name.ICHORCLOTH_BOOTS_GEM=秩序庇护长靴
+ttresearch.lore.ICHORCLOTH_BOOTS_GEM=从寒冬中君临这个世界
+ttresearch.page.ICHORCLOTH_BOOTS_GEM.0=你将神之血插入到神之血注魔长靴中，发现了长靴的一种更强大的形式。<BR><BR>这长靴允许宿主非常平滑的移动，就像旅行者之靴一样。佩戴者的移动速度、跳跃高度、跳跃距离都能达到极限，使运动变得轻而易举。你也可以直接翻越一格方块，也可以通过潜行来抑制这种能力。<BR>穿着靴子将恒定一个 急迫II 的魔术效果，同时所有你经过的泥土将变成草方块，所有坠落伤害将被否定。<BR>(为什么我踩着一种无形的威严）
+
+# -- FELINE AMULET
+ttresearch.name.CAT_AMULET=猫的护身符
+ttresearch.lore.CAT_AMULET=不要与猫在餐馆中争斗
+ttresearch.page.CAT_AMULET.0=你没有花太多时间来确定，你非常讨厌在工作时偷偷出现在背后的苦力怕。<BR><BR>为此，你特地思考了苦力怕逃避猫们的现象，设计了一个护身符，通过得到猫的赐福来让所有的苦力怕畏惧它的存在。不仅如此，他们甚至都害怕地忘记了爆炸。<BR>(非常感谢，猫大人!)
+
+# -- ICHORIUM TOOLS
+ttresearch.name.ICHOR_TOOLS=神之血注魔工具
+ttresearch.lore.ICHOR_TOOLS=顶级的刨坑工具
+ttresearch.page.ICHOR_TOOLS.0=你发现了如何用神之血制作一个工具。这些工具是非常强大的，钻石制品在它们面前如玻璃般脆弱，在现有的认知中没什么能够损坏它们。<BR><BR>为了创建这些工具，平凡魔杖的魔力是远远不够的，你决定用银树杖芯的那种来试试看。
+
+# -- AWAKENED ICHORIUM PICKAXE
+ttresearch.name.ICHOR_PICK_GEM=觉醒神魂镐
+ttresearch.lore.ICHOR_PICK_GEM=整个星球都会毁在你手里！
+ttresearch.page.ICHOR_PICK_GEM.0=你唤醒了神之血注魔镐的真正实力。这镐头包含你用过的所有镐子的特征，并且按住潜行和右键可以改变它的模式。<BR><BR>在专注模式(绿色)下，它能快速精确地破坏每一个方块。<BR><BR>在扩散模式(红色)下，它会打破围绕目标方块周围5x5的全部区域。该区域会发生立场偏移，使其易于开采。<BR><BR>在穿透模式(蓝色)下，
+ttresearch.page.ICHOR_PICK_GEM.1=它将打破十块与目标方块呈直线相邻的相同方块。甚至，它可以打破基岩。带你深入到世界的核心之中。你相信在地核之中的采掘更加有效率。
+
+
+# -- AWAKENED ICHORIUM SHOVEL
+ttresearch.name.ICHOR_SHOVEL_GEM=觉醒神魂锹
+ttresearch.lore.ICHOR_SHOVEL_GEM=整个世界将变成一个废墟！
+ttresearch.page.ICHOR_SHOVEL_GEM.0=你唤醒了神之血注魔锹的真正实力。这铲子包含你用过的所有铲子的特征，并且按住潜行和右键可以改变它的模式。<BR><BR>在专注模式(绿色)下，它能快速精确地破坏每一个方块。<BR><BR>在扩散模式(红色)下，它会打破围绕目标方块周围5x5的全部区域。<BR><BR>在穿透模式(蓝色)下，它将打破与目标方块呈直线相邻的上下各八个方块。
+
+# -- AWAKENED ICHORIUM AXE
+ttresearch.name.ICHOR_AXE_GEM=觉醒神魂斧
+ttresearch.lore.ICHOR_AXE_GEM=所有的植物都在悲鸣！
+ttresearch.page.ICHOR_AXE_GEM.0=你唤醒了神之血注魔斧的真正实力。这斧头包含你用过的所有斧头的特征，并且按住潜行和右键可以改变它的模式。<BR><BR>在专注模式(绿色)下，它能快速精确地破坏每一个方块。<BR><BR>在扩散模式(红色)下，它会打破围绕目标方块周围5x5的全部区域。<BR><BR>在伐木模式(蓝色)下，它将砍伐整一颗树。<BR><BR>这把斧头也非常精通收割植物的生命。
+
+# -- AWAKENED ICHORIUM SWORD
+ttresearch.name.ICHOR_SWORD_GEM=觉醒神魂剑
+ttresearch.lore.ICHOR_SWORD_GEM=我唤醒了一个怎么样的怪物！
+ttresearch.page.ICHOR_SWORD_GEM.0=你唤醒了神之血注魔剑的真正实力。这把剑包含你用过的所有剑的特征，并且按住潜行和右键可以改变它的模式。<BR><BR>在斩杀模式(绿色)下，它能快速精确的收割每一个生命。<BR><BR>在分裂模式(红色)下，它将攻击三格方块半径内的同一种生物。<BR><BR>在灵魂模式(蓝色)下，它会造成常规的伤害，但每次攻击将使你获得灵魂生命。<BR>[持续]
+ttresearch.page.ICHOR_SWORD_GEM.1=灵魂生命消耗后不再回复，当你拥有时它们呈现出一种金属的颜色。在受到攻击时灵魂生命会为你抵御伤害首先被消耗掉。
+
+# -- BOTTOMLESS POUCH
+ttresearch.name.ICHOR_POUCH=无极核心手袋
+ttresearch.lore.ICHOR_POUCH=哈，据说有底
+ttresearch.page.ICHOR_POUCH.0=它能够保存一些注入的法杖核心比如便携式洞穴核心，当然这数量不能超过它能存储的极限，但是似乎这个极限并不存在。<BR><BR>这个袋子可以携带超过四个箱子的物品，但只限于法杖核心。你可以用魔杖装载其中的任何一个。亲吻你的法杖核心手袋然后说再见吧。
+
+# -- BLACK HOLE TALISMAN
+ttresearch.name.BLOCK_TALISMAN=黑洞徽章
+ttresearch.lore.BLOCK_TALISMAN=比你想象的还能保存的更多
+ttresearch.page.BLOCK_TALISMAN.0=这个徽章能够被设置为任何实体方块,用它右击这个世界中任何你想拥有的方块来设定它，当右键点击时将会启用并吸收你的背包中多余的方块(超过一堆)，并确保至少有一堆在背包里。通过右键徽章可以释放保存在其中的方块，或将方块放置在目标位置。<BR><BR>它可以存储超过二十亿相同的块。那么圆石的堵塞问题将被彻底解决。如果徽章是空的，可以右键选择另一个方块改变其绑定。
+
+# -- WORLDSHAPER'S LOOKING GLASS
+ttresearch.name.PLACEMENT_MIRROR=世界塑造者的注视
+ttresearch.lore.PLACEMENT_MIRROR=水星之眼
+ttresearch.page.PLACEMENT_MIRROR.0=通过对世界的研究，你构建了一个特殊的玻璃，可以让您用心灵的力量构筑一个方块阵列。<BR><BR>若要设置将被构筑的方块阵列，需要持有玻璃并右键方块绑定阵列方块类型。然后右键选择目标位置来生成方块阵列。<BR><BR>当放置方块的时候，魔力让你能够看见阵列即将被形成的样子。根据等价交换原则，阵列被生成时将会有等量的方块被消耗，无论是从背包中亦或是包含所需方块的黑洞徽章里。
+
+# -- WAND FOCUS: SHADOWBEAM
+ttresearch.name.FOCUS_SHADOWBEAM=法杖核心: 暗影折光
+ttresearch.lore.FOCUS_SHADOWBEAM=从虚空之中诞生
+ttresearch.page.FOCUS_SHADOWBEAM.0=你需要为暗影能量指定一个焦点，它将会为你解离它路径上所有的生物。<BR><BR>因为虚空能量的一些奇怪原因，这道能量会把任何接触的方块当做镜面产生折射。
+
+# -- WAND FOCUS: EXPERIENCE DRAIN
+ttresearch.name.FOCUS_XP_DRAIN=法杖核心: 经验汲取
+ttresearch.lore.FOCUS_XP_DRAIN=自然的善意
+ttresearch.page.FOCUS_XP_DRAIN.0=当你创造了一个拥有惊人能量的法杖后，你得出了需要备用能源的结论。<BR><BR>最后，你创造了一个能够将自身经验值转化为vis的法杖核心，但这并不是很有效率。
+
+# -- PROTOCLAY
+ttresearch.name.PROTOCLAY=粘土精华
+ttresearch.lore.PROTOCLAY=从创造界被盗取
+ttresearch.page.PROTOCLAY.0=你厌倦了经常性的交换你的工具。<BR><BR>这种特殊的物质具有奇怪的融合性，通过与神之血的融合，能够切换所有的觉醒工具。切换的工具与你目标的方块有关。<BR><BR>例如，当你拿着觉醒镐又试图打破一个泥土方块时，它将为你切换为背包内的觉醒锹，然后让你快速的处理这些泥土。
+
+# -- CELESTIAL GATEWAY
+ttresearch.name.WARP_GATE=星空网关
+ttresearch.lore.WARP_GATE=世界线的变化？
+ttresearch.page.WARP_GATE.0=你设计了一个复杂的机制，允许你在这个世界转移自己的位标。这个方块包含星空珍珠时(见下页)，将允许你通过它传送到这个世界的另一个点。<BR><BR>总计可以连接十个传送位标。你可以通过界面进行对它的调试，进而避免其他星空网关连接到此(通过右击访问)。<BR><BR>要选择目的地列表，在方块上用潜行键进行选择。
+ttresearch.page.WARP_GATE.1=为了星空网关你必须设置星空门，他们必须被装载有星空珍珠。这些方块可以通过潜行和右键设置它在星空网关中的位标(注意，通过潜行和右键空气来清除它的位标)。<BR><BR>在星空门中放置一个星空珍珠将会让你进入星空网关并移动到它所绑定的位置。这个瞬移是单向的，而两颗珍珠必须使用两条链接。<BR><BR>用铁砧来命名星空珍珠可以使它的标记出现在网关的GUI上，这将便于星空网关的搭建。
+
+# -- WAND FOCUS: RECALL
+ttresearch.name.FOCUS_RECALL=法杖核心: 星空呼唤
+ttresearch.lore.FOCUS_RECALL=那么，这将会是新一代的炉石
+ttresearch.page.FOCUS_RECALL.0=使用星空网关在星空门间传送是非常便利的，你决定让它更进一步。你设计了一个新的法杖核心，它可以让你在任何地方链接星空网关。<BR><BR>重要的是，这需要将一个适当的天星珍珠放置在施法者的快捷栏里。然后，经过短暂的施法时间，施法者即可将自己的位标转移到星空网关中的另一个位置。当然，这需要消耗一些魔力。
+
+# -- WAILA
+ttwaila.nothing=无
+ttwaila.currentTool=当前的工具: %s
+ttwaila.leftClick=左键
+ttwaila.rightClick=右键
+ttwaila.redstone=红石激活
+ttwaila.autonomous=自主
+ttwaila.connected=链接到: %s
+ttwaila.repairing=正在修复: %s
+ttwaila.finishedRepairing=完成修复: %s
+ttwaila.allowIncoming=允许传入目标星空门
+ttwaila.disallowIncoming=不允许传入目标星空门
+ttwaila.pushingMode=模式: 排斥
+ttwaila.pullingMode=模式: 吸引
+ttwaila.pushing=排斥
+ttwaila.pulling=吸引
+ttwaila.pullingAdult=吸引: 成年
+ttwaila.pullingChild=吸引: 幼崽
+ttwaila.pushingAdult=排斥: 成年
+ttwaila.pushingChild=排斥: 幼崽
+ttwaila.pullingAdultType=吸引: 成年 %s
+ttwaila.pullingChildType=吸引: 幼崽 %s
+ttwaila.pushingAdultType=排斥: 成年 %s
+ttwaila.pushingChildType=排斥: 幼崽 %s
